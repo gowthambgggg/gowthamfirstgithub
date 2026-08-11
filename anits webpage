@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANITS - Anil Neerukonda Institute of Technology and Sciences</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#00509e;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .hero{
+            background:#e6f2ff;
+            text-align:center;
+            padding:50px;
+        }
+
+        .hero h2{
+            color:#003366;
+            margin-bottom:15px;
+        }
+
+        .hero p{
+            font-size:18px;
+            color:#333;
+        }
+
+        .container{
+            width:80%;
+            margin:30px auto;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .card h3{
+            color:#003366;
+            margin-bottom:10px;
+        }
+
+        ul{
+            margin-left:20px;
+        }
+
+        footer{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            background:#00509e;
+            color:white;
+            padding:12px 25px;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        .btn:hover{
+            background:#003366;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Anil Neerukonda Institute of Technology and Sciences</h1>
+    <p>Sangivalasa, Visakhapatnam, Andhra Pradesh</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Departments</a>
+    <a href="#">Admissions</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to ANITS</h2>
+    <p>
+        Empowering students with quality education, innovation,
+        research, and excellence since 2001.
+    </p>
+
+    <a href="#" class="btn">Explore More</a>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h3>About ANITS</h3>
+        <p>
+            Anil Neerukonda Institute of Technology and Sciences (ANITS)
+            is one of the premier engineering institutions in Andhra Pradesh.
+            The institute offers undergraduate and postgraduate programs in
+            Engineering, Management, and Technology with excellent infrastructure
+            and experienced faculty.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Departments</h3>
+        <ul>
+            <li>Computer Science and Engineering (CSE)</li>
+            <li>Artificial Intelligence & Machine Learning (AI & ML)</li>
+            <li>Electronics and Communication Engineering (ECE)</li>
+            <li>Electrical and Electronics Engineering (EEE)</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Information Technology (IT)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Facilities</h3>
+        <ul>
+            <li>Digital Library</li>
+            <li>Modern Computer Labs</li>
+            <li>Sports Complex</li>
+            <li>Hostel Facilities</li>
+            <li>Transport</li>
+            <li>Placement Cell</li>
+            <li>Wi-Fi Enabled Campus</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        © 2026 Anil Neerukonda Institute of Technology and Sciences |
+        Visakhapatnam, Andhra Pradesh
+    </p>
+</footer>
+
+</body>
+</html>
